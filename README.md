@@ -19,7 +19,7 @@ Each OTU in HITdb has its nearest cultivable species determined based global seq
 
 In Qiime, the following scripts can be employed to assign taxonomy to OTUs using HITdb with RDP as the assigner algorithm:
 
-``` r
+``` python
 # taxonomy assignment
 assign_taxonomy.py -i $PWD/otus/rep_set/seqs_rep_set.fasta -t $PWD/HITdb_taxonomy_qiime.txt -r $PWD/HITdb_sequences.fna -m rdp -o hitdb_taxonomy
 

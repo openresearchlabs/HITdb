@@ -1,7 +1,7 @@
 HITdb - Human Intestinal 16S rRNA gene reference taxonomy 
 =========================================================
 
-Ritari J, Salojärvi J, Lahti L & de Vos WM. Improved taxonomic assignment of human intestinal 16S rRNA sequences by a dedicated reference database. Submitted Manuscript.
+Ritari J, Salojärvi J, Lahti L & de Vos WM. Improved taxonomic assignment of human intestinal 16S rRNA sequences by a dedicated reference database. BMC Genomics. 2015 Dec 12;16(1):1056. doi: 10.1186/s12864-015-2265-y.
 
 
 ## Files 
@@ -10,6 +10,8 @@ HITdb v1.00 contains HITdb 16S rRNA gene sequences in fasta format (HITdb_sequen
 
 
 ## Notes
+
+HITdb is integrated in the LotuS pipeline: http://psbweb05.psb.ugent.be/lotus
 
 RDP or Mothur naïve Bayesian classifiers are recommended to be used with HITdb.
 

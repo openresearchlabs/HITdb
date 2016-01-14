@@ -11,7 +11,7 @@ HITdb v1.00 contains HITdb 16S rRNA gene sequences in fasta format (HITdb_sequen
 
 ## Notes
 
-- HITdb is now integrated in the LotuS pipeline: http://psbweb05.psb.ugent.be/lotus
+- HITdb is now integrated into the LotuS pipeline: http://psbweb05.psb.ugent.be/lotus
 
 - RDP or Mothur naïve Bayesian classifiers are recommended to be used with HITdb.
 

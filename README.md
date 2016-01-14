@@ -11,15 +11,15 @@ HITdb v1.00 contains HITdb 16S rRNA gene sequences in fasta format (HITdb_sequen
 
 ## Notes
 
-HITdb is integrated in the LotuS pipeline: http://psbweb05.psb.ugent.be/lotus
+- HITdb is now integrated in the LotuS pipeline: http://psbweb05.psb.ugent.be/lotus
 
-RDP or Mothur naïve Bayesian classifiers are recommended to be used with HITdb.
+- RDP or Mothur naïve Bayesian classifiers are recommended to be used with HITdb.
 
-The HITdb taxonomy has six levels (Phylum, Class, Order, Family, Genus, Species) in order to make it compatible with Qiime analysis pipeline, in particular the summarize_taxa_through_plots.py script which outputs 6 levels of taxonomy.
+- The HITdb taxonomy has six levels (Phylum, Class, Order, Family, Genus, Species) in order to make it compatible with Qiime analysis pipeline, in particular the summarize_taxa_through_plots.py script which outputs 6 levels of taxonomy.
 
-Each OTU in HITdb has its nearest cultivable species determined based global sequence similarity. The "NN=" in OTU name indicates the nearest cultivable neighbour, and "D=" indicates the sequence similarity. 
+- Each OTU in HITdb has its nearest cultivable species determined based global sequence similarity. The "NN=" in OTU name indicates the nearest cultivable neighbour, and "D=" indicates the sequence similarity. 
 
-In Qiime, the following scripts can be employed to assign taxonomy to OTUs using HITdb with RDP as the assigner algorithm:
+- In Qiime, the following scripts can be employed to assign taxonomy to OTUs using HITdb with RDP as the assigner algorithm:
 
 ``` python
 # taxonomy assignment

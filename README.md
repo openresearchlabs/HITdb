@@ -21,7 +21,7 @@ HITdb v1.00 contains HITdb 16S rRNA gene sequences in fasta format (HITdb_sequen
 
 - In Qiime, the following scripts can be employed to assign taxonomy to OTUs using HITdb with RDP as the assigner algorithm:
 
-``` python
+``` bash
 # taxonomy assignment
 assign_taxonomy.py -i $PWD/otus/rep_set/seqs_rep_set.fasta -t $PWD/HITdb_taxonomy_qiime.txt -r $PWD/HITdb_sequences.fna -m rdp -o hitdb_taxonomy
 
